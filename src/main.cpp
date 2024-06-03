@@ -13,9 +13,9 @@
 #include <ArduinoJson.hpp>
 #include <millisDelay.h>
 
-const char *ssid = "norazlin@unifi";
-const char *password = "bkh223811286";
-const char *mqtt_server = "test.mosquitto.org";
+const char *ssid = "";
+const char *password = "";
+const char *mqtt_server = "test.mosquitto.org"; //test.mosquitto.org --> use this free mqtt server for testing :)
 const int mqtt_port = 1883;
 const char *mqtt_user = "";
 const char *mqtt_pass = "";
